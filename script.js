@@ -27,7 +27,7 @@ let currentTetromino = randomTetromino();
 let currentPos = { x: 3, y: 0 }; // Posição inicial do tetromino
 let score = 0;
 let gameOver = false;
-let dropSpeed = 40; // Velocidade inicial de queda das peças
+let dropSpeed = 20; // Velocidade inicial de queda das peças
 let lastDropTime = 0;
 
 document.addEventListener('keydown', (event) => {
